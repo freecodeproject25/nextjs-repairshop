@@ -18,3 +18,5 @@
 
         `npm run db:generate` to create then 
         `npm run db:migrate` post to Neon
+#   SQL DATA QUERIES
+        UPDATE TICKETS SET tech = 'new-ticket@example.com'
