@@ -10,3 +10,11 @@
 
 #   authentication and login
     using kinde : npm i @kinde-oss/kinde-auth-nextjs
+
+#   Connect Database: neon postgres aws
+    ADD drizzle
+        npm i drizzle-orm @neondatabase/serverless
+        npm i -D drizzle-kit tsx dotenv
+
+        `npm run db:generate` to create then 
+        `npm run db:migrate` post to Neon
