@@ -20,3 +20,7 @@
         `npm run db:migrate` post to Neon
 #   SQL DATA QUERIES
         UPDATE TICKETS SET tech = 'new-ticket@example.com'
+
+#    React-Hook-Form, Drizzle-zod
+    npm i zod drizzle-zod react-hook-form @hookform/resolvers
+    npx shadcn@latest add form
