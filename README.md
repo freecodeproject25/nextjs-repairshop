@@ -24,3 +24,4 @@
 #    React-Hook-Form, Drizzle-zod
     npm i zod drizzle-zod react-hook-form @hookform/resolvers
     npx shadcn@latest add form
+    npx shadcn@latest add input select textarea checkbox
